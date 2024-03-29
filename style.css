@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&display=swap');
+          
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+body{
+    background-color: rgb(0, 0, 33);
+    font-family: 'Poppins',sans-serif;
+}
+nav{
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color:rgb(18, 18, 62);
+}
+nav ul{
+    display: flex;
+    
+}
+li{
+    margin: 0 23px;
+    list-style:none;
+    font-size: medium;
+}
+li:hover{
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Instrument Serif',sans-serif;
+    animation: listhover 1s;
+}
+
+.left{
+    font-family: 'Instrument Serif',sans-serif;
+    font-size: 24px;
+    cursor:-moz-grab;
+    color: rgb(119, 141, 158);
+}
+.left:hover{
+    color: rgb(150, 141, 158);
+}
+.divsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 34px 0;
+}
+.divsection div{
+    width: 30%;
+    
+}
+.divsection div img{
+    display: inline-block;
+    margin-left: 56px;
+    margin-top: 12px;
+    width: 244px;
+
+
+}
+.leftsection{
+    background-color: rgba(76, 71, 71, 0.288);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: fit-content;
+}
+.techsection{
+    text-align: center;
+}
+.techsection h1{
+    margin-top: 23px;
+    text-align: center;
+    font-weight:400;
+    
+    display: inline-block;
+  
+}
+.techsection h1:hover{
+    animation: listhover 1s;
+    cursor:grabbing;
+    filter:blur(12);
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.maintech{
+    display: flex;
+    margin: 45px 0;
+    justify-content: space-around;
+    
+}
+.maintech div{
+    animation: listhover 5s infinite;
+    text-transform: uppercase;
+    cursor: grabbing;
+}
+.maintech div:hover{
+    color: blue;
+    
+    
+}
+.handle {
+    display: flex;
+    justify-content: space-around;   
+}
+.handle div{
+    margin-top: 45px;
+    cursor: pointer;
+    height: fit-content;
+   align-self: center;  
+     
+}
+.handle div:hover{
+animation:img 0.5s reverse ;
+image-orientation: 360deg;
+
+}
+.right ul li a{
+    text-decoration: none;
+}
+
+.right ul li a:hover{
+    animation:listhover 1s alternate-reverse;
+
+}
+.git{
+    display: inline;
+    background-color: aliceblue;
+    height: 30px; 
+    margin-top: 56px;
+    filter: invert();
+
+}
+.rightsection img{
+    object-fit: contain;
+   
+    
+}
+
+#atharv{
+    text-transform: uppercase;
+}
+#x{
+    filter: invert();
+}
+
+@keyframes listhover {
+    100%{
+        color: blue;
+       
+    }
+}
+@keyframes img {
+    10%{
+        width: 100px;
+    }
+    
+}
